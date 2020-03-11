@@ -3,16 +3,16 @@
 ====================================================
 
 * 	[Master Stylesheet]
-	
-	Theme Name :  
-	Version    :  
-	Author     :  
-	Author URI :  
+
+	Theme Name :
+	Version    :
+	Author     :
+	Author URI :
 
 ====================================================
 
 	TOC
-	
+
 	1. PRIMARY STYLES
 	2. COMMONS FOR PAGE DESIGN
 	3. HEADER
@@ -35,8 +35,8 @@ html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 
 
 
 body{ font-size: 15px; font-family: 'Poppins', serif; margin: 0; font-weight: 400;
-	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
-	line-height: 1; margin: 0 50px; padding: 60px 0; height: 100vh; 
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word;
+	line-height: 1; margin: 0 50px; padding: 60px 0; height: 100vh;
 	width: calc(100% - 100px); position: relative; z-index: 1; color: #333; }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
@@ -54,12 +54,14 @@ h4{ font-size: 1.3em; }
 h5{ font-size: 1em; }
 h6{ font-size: .9em; letter-spacing: 1px; }
 
-a, button{ display: inline-block; text-decoration: none; color: inherit; line-height: 1; 
+a, button{ display: inline-block; text-decoration: none; color: inherit; line-height: 1;
 	-webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #37D583; }
+a b.light-color:hover{ text-decoration: none; color: #62b0c7; }
+
+<!-- original color 37D584 -->
 
 b{ font-weight: 600; }
 
@@ -83,8 +85,8 @@ b.max-bold{ font-weight: 700; }
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
-.display-table{ display: table; height: 100%; } 
-.display-table-cell{ display: table-cell; vertical-align: middle; } 
+.display-table{ display: table; height: 100%; }
+.display-table-cell{ display: table-cell; vertical-align: middle; }
 
 .color-black{ color: #000; }
 .color-green{ color: #36D98A; }
@@ -119,15 +121,15 @@ header .right-area{ float: right; height: 100%; line-height: 60px; margin-left: 
 
 /* HAMBURGER ICON */
 
-.menu-nav-icon{ display: inline-block; font-size: 30px; line-height: 40px; margin: 10px 0; 
+.menu-nav-icon{ display: inline-block; font-size: 30px; line-height: 40px; margin: 10px 0;
 	display: none; cursor: pointer; }
 
-	
+
 /* DROPDOWN MENU STYLING */
 
 header .main-menu li.drop-down{ position: relative; text-align: left; }
 
-header .main-menu li.drop-down > ul.drop-down-menu{ display: none; position: absolute; top: 60px; 
+header .main-menu li.drop-down > ul.drop-down-menu{ display: none; position: absolute; top: 60px;
 	left: 0; min-width: 180px; box-shadow: 0px 3px 10px rgba(0,0,0,.3); background: #fff; }
 
 header .main-menu li.drop-down > ul.drop-down-menu li{ display: block; border-top: 1px solid #ddd; }
@@ -139,7 +141,7 @@ header .main-menu li i{margin-left: 10px; }
 
 /* DROPDOWN HOVER */
 
-header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block; 
+header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 	animation: full-opacity-anim .2s forwards; }
 
 
@@ -155,13 +157,13 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .slider-section{ height: 100%; width: 100%; position: relative; z-index: 1; }
 
-.bg-img{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1; 
+.bg-img{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
 	background-size: cover; }
 
 .bg-1{ background-image: url(../../images/slider-1-1920x1080.jpg); }
 
 
-.rev_slider_wrapper.fullscreen-container{ height: 100%!important; width: 100%!important; 
+.rev_slider_wrapper.fullscreen-container{ height: 100%!important; width: 100%!important;
 	margin: 0 auto!important; left: auto!important;}
 
 .forcefullwidth_wrapper_tp_banner{ height: 100%!important; }
@@ -188,14 +190,14 @@ footer .copyright{ font-size: .95em; line-height: 60px; left: 0; position: absol
 
 footer .show-thumb-btn{ height: 30px; line-height: 30px; margin: 15px 0; position: relative; }
 
-footer .show-thumb-btn:after{ content:''; position: absolute; bottom: 3px; top: 3px; left: -2px; 
-	right: -2px; z-index: -1; background: #aaa; 
-	-webkit-transform-origin: bottom; transform-origin: bottom; 
+footer .show-thumb-btn:after{ content:''; position: absolute; bottom: 3px; top: 3px; left: -2px;
+	right: -2px; z-index: -1; background: #aaa;
+	-webkit-transform-origin: bottom; transform-origin: bottom;
 	-webkit-transform: scaleY(.15); transform: scaleY(.15);
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 footer .show-thumb-btn:hover{ color: #fff; }
-footer .show-thumb-btn:hover:after{ background: #333;  
+footer .show-thumb-btn:hover:after{ background: #333;
 	-webkit-transform: scaleY(1); transform: scaleY(1); }
 
 
