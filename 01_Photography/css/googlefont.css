@@ -1,0 +1,22 @@
+<style>
+/*    @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);*/
+
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*      구글폰트 클래스 정의          */
+
+/*      .dds {font-family: 'Julius Sans One';} */
+/*      .jsn {font-family: 'Julius Sans One';} */
+/*      .jso {font-family: 'Julius Sans One'; letter-spacing: 20px;}*/
+/*      .nst {font-family: 'Noto Sans';} */
+
+  .ds {font-family: 'Dancing Script';} */
+  .ns {font-family: 'Noto Sans'; font-size: 9px;}
+  .nbs {font-family: 'Nanum Brush Script'; font-size: 24px;}
+  .ngt {font-family: 'Nanum Gothic'; font-size: 14px;}
+  .ng {font-family: 'Nanum Gothic'; font-size: 14px;}
+</style>
